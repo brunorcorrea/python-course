@@ -1,0 +1,12 @@
+Exercise: communicating with users (Python 3.10)
+This problem has two parts:
+
+Part 1
+
+Ask the user for their name, and then greet them using the phrase "Hello, NAME". Of course, NAME should be replaced by the name they've given you!
+
+Part 2
+
+Ask the user for their age, and then print out how many months that is. You only need to print the number of months out.
+
+Remember that for this you'll need to convert the user's input into a number by using int().
