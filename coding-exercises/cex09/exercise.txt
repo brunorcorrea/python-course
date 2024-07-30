@@ -1,0 +1,28 @@
+Exercise: defining a method (Python 3.10)
+Now that you've defined your first class, let's try to add a method into it!
+
+As a recap, we've defined a Movie class in our previous coding exercise like this—with an __init__  method:
+
+class Movie:
+    def __init__(self, new_name, new_director):
+        self.name = new_name
+        self.director = new_director
+Now, let's combine our previous knowledge on the print() function and try to add a method in our Movie class that formats and prints out a movie's info.
+
+You are expected to create a method in the Movie class called print_info(). The output format of your print_info()method should look like this:
+
+<<movie_name>> by movie_director
+The movie_name and movie_director should be replaced by the according properties inside the object that calls the print_info() method.
+
+For example, the output of the following code:
+
+my_movie = Movie('The Matrix', 'Wachowski')
+my_movie.print_info()
+should look like this:
+
+<<The Matrix>> by Wachowski
+Happy coding!
+
+— Jose and the Teclado team
+
+P.S. Remember, you don't have to create an object or call the method—just define it inside the class!
